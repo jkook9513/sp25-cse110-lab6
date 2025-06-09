@@ -137,7 +137,7 @@ class RecipeCard extends HTMLElement {
 		//           Remember to replace all the placeholders in the template with the data passed in.
 		//           i.e. imgSrc, titleLnk, etc
 
-		article = this.shadowRoot.querySelector('article');
+		const article = this.shadowRoot.querySelector('article');
 		article.innerHTML = `
 			<img src="https://link-to-article.com/recipe-thumbnail.jpg" alt="Recipe Title">
 			<p class="title">
